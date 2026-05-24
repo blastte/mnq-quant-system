@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+*.env
+!.env.example
+
+# Market data (licensed / large — supply your own)
+*.csv
+data/
+mnq-bot/data/
+
+# Pipeline outputs (downloaded media, transcripts, frames)
+yt_out/
+*.mp4
+*.m4a
+*.jpg
+*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+youtube-transcript-api>=0.6.2
+yt-dlp>=2024.5.27
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+requests>=2.31.0
+# Optional fallback for Whisper layer:
+# openai-whisper>=20231117
+# Optional Claude backend:
+# anthropic>=0.40.0
